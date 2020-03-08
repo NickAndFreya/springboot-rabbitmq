@@ -1,0 +1,83 @@
+2018-10-09 17:32:22.744 - INFO 10896 [           main] ringbootRabbitmqProducerApplicationTests : Starting SpringbootRabbitmqProducerApplicationTests on LS-700687 with PID 10896 (started by chengpiny in D:\idea_workspace\springboot-rabbitmq\springboot-rabbitmq-producer)
+2018-10-09 17:32:22.754 - INFO 10896 [           main] ringbootRabbitmqProducerApplicationTests : No active profile set, falling back to default profiles: default
+2018-10-09 17:32:22.864 - INFO 10896 [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:32:22 CST 2018]; root of context hierarchy
+2018-10-09 17:32:23.683 - WARN 10896 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-09 17:32:23.825 - WARN 10896 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-09 17:32:24.178 - WARN 10896 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-09 17:32:24.279 - INFO 10896 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7cf81d76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-09 17:32:24.635 - INFO 10896 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-09 17:32:24",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-09 17:32:26.912 - INFO 10896 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-09 17:32:26.942 - INFO 10896 [           main] ringbootRabbitmqProducerApplicationTests : Started SpringbootRabbitmqProducerApplicationTests in 5.146 seconds (JVM running for 8.217)
+2018-10-09 17:32:28.630 - INFO 10896 [           main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-10-09 17:32:28.787 - INFO 10896 [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:32:22 CST 2018]; root of context hierarchy
+2018-10-09 17:32:28.791 - INFO 10896 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-10-09 17:32:28.793 - INFO 10896 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-10-09 17:36:13.160 - INFO 8964 [           main] ringbootRabbitmqProducerApplicationTests : Starting SpringbootRabbitmqProducerApplicationTests on LS-700687 with PID 8964 (started by chengpiny in D:\idea_workspace\springboot-rabbitmq\springboot-rabbitmq-producer)
+2018-10-09 17:36:13.162 - INFO 8964 [           main] ringbootRabbitmqProducerApplicationTests : No active profile set, falling back to default profiles: default
+2018-10-09 17:36:13.237 - INFO 8964 [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:36:13 CST 2018]; root of context hierarchy
+2018-10-09 17:36:14.019 - WARN 8964 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-09 17:36:14.133 - WARN 8964 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-09 17:36:14.461 - WARN 8964 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-09 17:36:14.549 - INFO 8964 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$951801d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-09 17:36:14.841 - INFO 8964 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-09 17:36:14",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-09 17:36:16.873 - INFO 8964 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-09 17:36:16.896 - INFO 8964 [           main] ringbootRabbitmqProducerApplicationTests : Started SpringbootRabbitmqProducerApplicationTests in 5.078 seconds (JVM running for 6.741)
+2018-10-09 17:36:18.151 - INFO 8964 [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [47.95.241.100:5672]
+2018-10-09 17:36:18.743 - INFO 8964 [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2c42b421:0/SimpleConnection@2938127d [delegate=amqp://guest@47.95.241.100:5672/, localPort= 58527]
+2018-10-09 17:36:19.107 - INFO 8964 [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:36:13 CST 2018]; root of context hierarchy
+2018-10-09 17:36:19.110 - INFO 8964 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-10-09 17:36:19.110 - INFO 8964 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-10-09 17:53:02.784 - INFO 7356 [           main] ringbootRabbitmqProducerApplicationTests : Starting SpringbootRabbitmqProducerApplicationTests on LS-700687 with PID 7356 (started by chengpiny in D:\idea_workspace\springboot-rabbitmq\springboot-rabbitmq-producer)
+2018-10-09 17:53:02.786 - INFO 7356 [           main] ringbootRabbitmqProducerApplicationTests : No active profile set, falling back to default profiles: default
+2018-10-09 17:53:02.837 - INFO 7356 [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:53:02 CST 2018]; root of context hierarchy
+2018-10-09 17:53:03.929 - WARN 7356 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-09 17:53:04.141 - WARN 7356 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-09 17:53:04.654 - WARN 7356 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-09 17:53:04.738 - INFO 7356 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$af54c93b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-09 17:53:05.071 - INFO 7356 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-09 17:53:05",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-09 17:53:07.070 - INFO 7356 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-09 17:53:07.092 - INFO 7356 [           main] ringbootRabbitmqProducerApplicationTests : Started SpringbootRabbitmqProducerApplicationTests in 5.045 seconds (JVM running for 6.521)
+2018-10-09 17:53:08.300 - INFO 7356 [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [47.95.241.100:5672]
+2018-10-09 17:53:08.843 - INFO 7356 [           main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#39aa45a1:0/SimpleConnection@2b7962a2 [delegate=amqp://guest@47.95.241.100:5672/, localPort= 59139]
+2018-10-09 17:53:09.176 - INFO 7356 [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@28194a50: startup date [Tue Oct 09 17:53:02 CST 2018]; root of context hierarchy
+2018-10-09 17:53:09.180 - INFO 7356 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-10-09 17:53:09.180 - INFO 7356 [       Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0

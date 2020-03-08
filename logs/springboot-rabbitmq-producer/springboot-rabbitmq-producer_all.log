@@ -1,0 +1,202 @@
+2018-10-11 09:18:02.142 - INFO 14544 [           main] .p.SpringbootRabbitmqProducerApplication : No active profile set, falling back to default profiles: default
+2018-10-11 09:18:02.289 - INFO 14544 [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4167d97b: startup date [Thu Oct 11 09:18:02 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3d74bf60
+2018-10-11 09:18:02.708 - WARN 14544 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-11 09:18:02.842 - WARN 14544 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-11 09:18:02.923 - INFO 14544 [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e00ceb6-56fe-31bb-a4d3-8e59208c4633
+2018-10-11 09:18:02.954 - WARN 14544 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-11 09:18:02.991 - INFO 14544 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$aa165456] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:18:03.033 - INFO 14544 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3aa9628] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:18:03.065 - INFO 14544 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ffc49925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:18:03.179 - INFO 14544 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-11 09:18:03",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-11 09:18:03.853 - WARN 14544 [           main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-10-11 09:18:03.855 - WARN 14544 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:18:03.856 - INFO 14544 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:18:03.860 - WARN 14544 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:18:03.861 - INFO 14544 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:18:05.153 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 09:18:05.154 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-11 09:18:05.161 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-10-11 09:18:05.161 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-10-11 09:18:05.162 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-10-11 09:18:05.163 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-10-11 09:18:05.166 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-10-11 09:18:05.176 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-10-11 09:18:05.185 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4167d97b,type=ConfigurationPropertiesRebinder]
+2018-10-11 09:18:05.190 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-11 09:18:05.192 - INFO 14544 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-10-11 09:18:05.206 - INFO 14544 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-11 09:18:05.271 - INFO 14544 [           main] .p.SpringbootRabbitmqProducerApplication : Started SpringbootRabbitmqProducerApplication in 6.202 seconds (JVM running for 7.534)
+2018-10-11 09:21:07.078 - INFO 14868 [           main] .p.SpringbootRabbitmqProducerApplication : No active profile set, falling back to default profiles: default
+2018-10-11 09:21:07.143 - INFO 14868 [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4167d97b: startup date [Thu Oct 11 09:21:07 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4f209819
+2018-10-11 09:21:07.502 - WARN 14868 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-11 09:21:07.621 - WARN 14868 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-11 09:21:07.720 - INFO 14868 [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e00ceb6-56fe-31bb-a4d3-8e59208c4633
+2018-10-11 09:21:07.751 - WARN 14868 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-11 09:21:07.782 - INFO 14868 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$4c97051e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:21:07.829 - INFO 14868 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$862b46f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:21:07.860 - INFO 14868 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a24549ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:21:07.907 - INFO 14868 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-11 09:21:07",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-11 09:21:08.377 - WARN 14868 [           main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-10-11 09:21:08.380 - WARN 14868 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:21:08.380 - INFO 14868 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:21:08.384 - WARN 14868 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:21:08.384 - INFO 14868 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:21:09.611 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 09:21:09.612 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-11 09:21:09.619 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-10-11 09:21:09.620 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-10-11 09:21:09.621 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-10-11 09:21:09.622 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-10-11 09:21:09.624 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-10-11 09:21:09.635 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-10-11 09:21:09.644 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=4167d97b,type=ConfigurationPropertiesRebinder]
+2018-10-11 09:21:09.649 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-11 09:21:09.651 - INFO 14868 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-10-11 09:21:09.664 - INFO 14868 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-11 09:21:09.677 - INFO 14868 [           main] .p.SpringbootRabbitmqProducerApplication : Started SpringbootRabbitmqProducerApplication in 5.31 seconds (JVM running for 6.667)
+2018-10-11 09:23:09.967 - INFO 12316 [           main] .p.SpringbootRabbitmqProducerApplication : No active profile set, falling back to default profiles: default
+2018-10-11 09:23:09.983 - INFO 12316 [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7c51f34b: startup date [Thu Oct 11 09:23:09 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@130161f7
+2018-10-11 09:23:10.446 - WARN 12316 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-11 09:23:10.533 - WARN 12316 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-11 09:23:10.607 - INFO 12316 [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e00ceb6-56fe-31bb-a4d3-8e59208c4633
+2018-10-11 09:23:10.635 - WARN 12316 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-11 09:23:10.672 - INFO 12316 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a84f2072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:23:10.707 - INFO 12316 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1e36244] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:23:10.737 - INFO 12316 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$fdfd6541] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:23:10.812 - INFO 12316 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-11 09:23:10",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-11 09:23:11.251 - WARN 12316 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:23:11.252 - INFO 12316 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:23:11.256 - WARN 12316 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:23:11.256 - INFO 12316 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:23:12.573 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 09:23:12.574 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-11 09:23:12.581 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-10-11 09:23:12.582 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-10-11 09:23:12.583 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-10-11 09:23:12.584 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-10-11 09:23:12.586 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-10-11 09:23:12.597 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-10-11 09:23:12.606 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7c51f34b,type=ConfigurationPropertiesRebinder]
+2018-10-11 09:23:12.612 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-11 09:23:12.613 - INFO 12316 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-10-11 09:23:12.627 - INFO 12316 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-11 09:23:12.639 - INFO 12316 [           main] .p.SpringbootRabbitmqProducerApplication : Started SpringbootRabbitmqProducerApplication in 5.565 seconds (JVM running for 6.88)
+2018-10-11 09:26:31.891 - INFO 14056 [           main] .p.SpringbootRabbitmqProducerApplication : No active profile set, falling back to default profiles: default
+2018-10-11 09:26:31.952 - INFO 14056 [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1bab8268: startup date [Thu Oct 11 09:26:31 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@48ae9b55
+2018-10-11 09:26:32.365 - WARN 14056 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-11 09:26:32.480 - WARN 14056 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-11 09:26:32.553 - INFO 14056 [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e00ceb6-56fe-31bb-a4d3-8e59208c4633
+2018-10-11 09:26:32.581 - WARN 14056 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-11 09:26:32.618 - INFO 14056 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$63614608] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:26:32.655 - INFO 14056 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cf587da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:26:32.687 - INFO 14056 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b90f8ad7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:26:32.761 - INFO 14056 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-11 09:26:32",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-11 09:26:33.210 - WARN 14056 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:26:33.210 - INFO 14056 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:26:33.214 - WARN 14056 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:26:33.214 - INFO 14056 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:26:34.513 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 09:26:34.514 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-11 09:26:34.521 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-10-11 09:26:34.522 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-10-11 09:26:34.524 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-10-11 09:26:34.525 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-10-11 09:26:34.528 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-10-11 09:26:34.540 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-10-11 09:26:34.551 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1bab8268,type=ConfigurationPropertiesRebinder]
+2018-10-11 09:26:34.558 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-11 09:26:34.560 - INFO 14056 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-10-11 09:26:34.574 - INFO 14056 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-11 09:26:34.588 - INFO 14056 [           main] .p.SpringbootRabbitmqProducerApplication : Started SpringbootRabbitmqProducerApplication in 5.577 seconds (JVM running for 6.853)
+2018-10-11 09:30:33.421 - INFO 13780 [           main] .p.SpringbootRabbitmqProducerApplication : No active profile set, falling back to default profiles: default
+2018-10-11 09:30:33.440 - INFO 13780 [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57ad2aa7: startup date [Thu Oct 11 09:30:33 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3daa422a
+2018-10-11 09:30:33.856 - WARN 13780 [           main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.nick.springboot.rabbitmq.model, com.nick.springboot.rabbitmq.producer]' package. Please check your configuration.
+2018-10-11 09:30:33.982 - WARN 13780 [           main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'mybatisMapperScanerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-10-11 09:30:34.054 - INFO 13780 [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0e00ceb6-56fe-31bb-a4d3-8e59208c4633
+2018-10-11 09:30:34.087 - WARN 13780 [           main] o.s.b.c.p.PropertySourcesDeducer         : Multiple PropertySourcesPlaceholderConfigurer beans registered [propertyConfigure, properdtyConfigure], falling back to Environment
+2018-10-11 09:30:34.122 - INFO 13780 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$b8adc8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:30:34.161 - INFO 13780 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$451f1e5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:30:34.194 - INFO 13780 [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6139215b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-10-11 09:30:34.269 - INFO 13780 [           main] c.n.s.r.p.c.d.DruidDataSourceConfig      :  druid datasource config : {
+	CreateTime:"2018-10-11 09:30:34",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] 
+2018-10-11 09:30:34.716 - WARN 13780 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:30:34.716 - INFO 13780 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:30:34.720 - WARN 13780 [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-10-11 09:30:34.720 - INFO 13780 [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-10-11 09:30:35.939 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 09:30:35.941 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-10-11 09:30:35.947 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-10-11 09:30:35.948 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-10-11 09:30:35.949 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-10-11 09:30:35.950 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-10-11 09:30:35.952 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-10-11 09:30:35.963 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-10-11 09:30:35.975 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=57ad2aa7,type=ConfigurationPropertiesRebinder]
+2018-10-11 09:30:35.980 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-10-11 09:30:35.982 - INFO 13780 [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-10-11 09:30:35.993 - INFO 13780 [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-11 09:30:36.006 - INFO 13780 [           main] .p.SpringbootRabbitmqProducerApplication : Started SpringbootRabbitmqProducerApplication in 5.352 seconds (JVM running for 6.595)
